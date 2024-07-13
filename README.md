@@ -1,9 +1,9 @@
-#### How to build the Freifunk Hamburg Firmware
+#### How to build the Freifunk Aschaffenburg Firmware
 
 	In the next two commands replace GLUON_VERSION and SITE_VERSION with the actual version numbers.
 	$ git clone -b GLUON_VERSION https://github.com/freifunk-gluon/gluon.git
-	$ git clone -b SITE_VERSION https://github.com/freifunkhamburg/site-ffhh.git
-	$ cd site-ffhh
+	$ git clone -b SITE_VERSION https://github.com/dasPolygon/site-ab.git
+	$ cd site-ab
 
 	To build the firmware into the subdirectory firmware:
 	$ ./build.sh -g ../gluon -o firmware
@@ -13,7 +13,7 @@
 Please see [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for an in-depth explanation of the build process.
 
 
-#### Gluon versions used for specific Hamburg Freifunk Firmware builds
+#### Gluon versions used for specific Aschaffenburg Freifunk Firmware builds
 
 - v2023.2.2.0: site-ffhh: v2023.2.2.0, gluon: v2023.2.2
 - v2023.1.2.0: site-ffhh: v2023.1.2.0, gluon: v2023.1.2
